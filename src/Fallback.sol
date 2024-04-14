@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//Objective 1: Claim ownership of the contract
+//Objective 2: Withdraw the contract's balance
+
 contract Fallback {
     mapping(address => uint256) public contributions;
     address public owner;
