@@ -2,6 +2,12 @@
 
 This repository is dedicated to demonstrating security best practices in Ethereum smart contracts. We use [Ethernaut](https://ethernaut.openzeppelin.com/) problems as practical examples to illustrate common vulnerabilities and how to avoid them.
 
+To deploy scripts on chain, pass an RPC url flag and the broadcast flag to your terminal. For example:
+
+```shell
+ forge script script/Fallback.s.sol --rpc-url https://rpc.sepolia.org --broadcast
+```
+
 ## About Foundry
 
 We use [Foundry](https://github.com/gakonst/foundry), a blazing fast, portable, and modular toolkit for Ethereum application development written in Rust. Foundry consists of:
