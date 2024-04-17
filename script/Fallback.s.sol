@@ -6,8 +6,7 @@ import {Fallback} from "../src/Fallback.sol";
 
 contract SolveFallback is Script {
     //replace with your contract instance
-    Fallback public fb =
-        Fallback(payable(0x3e11c8E796083C160cc893EBEa7cfF62c3bcf0BF));
+    Fallback public fb = Fallback(payable());
 
     function setUp() public {}
 

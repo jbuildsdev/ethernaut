@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
-
+//Objective: Claim ownership of contract
 import "openzeppelin-contracts-06/math/SafeMath.sol";
 
 contract Fallout {
@@ -36,3 +36,4 @@ contract Fallout {
     function allocatorBalance(address allocator) public view returns (uint256) {
         return allocations[allocator];
     }
+}
