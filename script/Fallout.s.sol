@@ -5,7 +5,7 @@ import "../src/Fallout.sol";
 import {Script, console} from "../lib/forge-std/src/Script.sol";
 
 contract SolveFallout is Script {
-    // Create an instance of the Fallout contract
+    // Create an instance of the Fallout contract, replace with your contract address
     Fallout public f = Fallout();
 
     function run() external {
